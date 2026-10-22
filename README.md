@@ -41,7 +41,7 @@ scripts/render-catalog.ts      → headless Node batch (@cesdk/node)
 
 Before you install or run the project, confirm you have:
 
-- **Node.js 20+** and npm (`engines.node` in `package.json`)
+- **Node.js 22+** and npm (`engines.node` in `package.json`)
 - A **CE.SDK license key** from the [IMG.LY free trial form](https://img.ly/forms/free-trial)
 - The included assets under `public/` (brand images, product mockups, and engine assets as shipped in this repository)
 
