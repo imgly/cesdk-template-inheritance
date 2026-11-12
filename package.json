@@ -4,7 +4,7 @@
   "description": "CE.SDK swag catalog with template inheritance — master + customer overrides + product catalog → print plates and mockups",
   "private": true,
   "engines": {
-    "node": ">=20"
+    "node": ">=22"
   },
   "scripts": {
     "secrets": "bash scripts/setup-secrets.sh",
@@ -29,9 +29,9 @@
     "render:catalog": "tsx scripts/render-catalog.ts"
   },
   "dependencies": {
-    "@cesdk/cesdk-js": "1.76.2-rc.1",
-    "@cesdk/engine": "1.76.2-rc.1",
-    "@cesdk/node": "1.76.2-rc.1",
+    "@cesdk/cesdk-js": "1.87.0-nightly.20261112",
+    "@cesdk/engine": "1.87.0-nightly.20261112",
+    "@cesdk/node": "1.87.0-nightly.20261112",
     "classnames": "^2.5.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
